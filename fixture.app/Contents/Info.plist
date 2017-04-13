@@ -11,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string>app.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.sindresorhus.create-dmg.fixture</string>
+	<string>io.demey.gilles.make-dmg.fixture</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

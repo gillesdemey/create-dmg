@@ -1,12 +1,10 @@
-# create-dmg [![Build Status](https://travis-ci.org/sindresorhus/create-dmg.svg?branch=master)](https://travis-ci.org/sindresorhus/create-dmg)
+# make-dmg [![Build Status](https://travis-ci.org/gillesdemey/make-dmg.svg?branch=master)](https://travis-ci.org/gillesdemey/make-dmg)
 
 > Create a good-looking [DMG](https://en.m.wikipedia.org/wiki/Apple_Disk_Image) for your macOS app in seconds
 
 Imagine you have finished a macOS app, exported it from Xcode, and now want to distribute it to users. The most common way of distributing an app outside the Mac App Store is by putting it in a `.dmg` file. These are hard to create, especially good-looking ones. You can either pay for a GUI app where you have to customize an existing design or you can run some homebrewed Bash script and you still have to design it. This tool does everything for you, so you can play with your 🐈 instead.
 
 <img src="screenshot-cli.gif" width="998">
-
-**Discuss it on [Product Hunt](https://www.producthunt.com/posts/create-dmg) and [Twitter](https://twitter.com/sindresorhus/status/846416556754010112).**
 
 *This tool is intentionally opinionated and simple. I'm not interested in adding lots of options.*
 
@@ -16,20 +14,20 @@ Imagine you have finished a macOS app, exported it from Xcode, and now want to d
 Ensure you have [Node.js](https://nodejs.org) 4 or later installed. Then run the following:
 
 ```
-$ npm install --global create-dmg
+$ npm install --global make-dmg
 ```
 
 
 ## Usage
 
 ```
-$ create-dmg --help
+$ make-dmg --help
 
   Usage
-    $ create-dmg <app>
+    $ make-dmg <app>
 
   Example
-    $ create-dmg 'Lungo.app'
+    $ make-dmg 'Lungo.app'
 ```
 
 
@@ -44,4 +42,4 @@ It will try to code sign the DMG, but the DMG is still created and fine even if 
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Gilles De Mey](https://gilles.demey.io)
